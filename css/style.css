@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(200, 200, 200, 0.9);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    width: 100%;
+    padding: 35px 30px 30px;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    margin: 6px 0 20px;
+}
+
+.login-box input{
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    background-color: rgba(234, 234, 234, 0.859);
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-box input::placeholder {
+    color: #8e8e8e;
+}
+
+.login-box button [type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    background: #0046f6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #a0a0a0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.separador::before,
+.separador::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.separador::before { margin-right: 10px; }
+.separador::after  { margin-left: 10px; }
+
+.fb-login {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #385185;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.olvide {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #00376b;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.registro-box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.link-registro {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
